@@ -14,6 +14,8 @@
 		4200AC441EE10784000066CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4200AC421EE10784000066CC /* LaunchScreen.storyboard */; };
 		4200AC4F1EE10784000066CC /* LHMultistageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200AC4E1EE10784000066CC /* LHMultistageViewTests.swift */; };
 		4200AC5A1EE10784000066CC /* LHMultistageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200AC591EE10784000066CC /* LHMultistageViewUITests.swift */; };
+		42558A7A1EE116DE00897157 /* LHRationMoveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42558A791EE116DE00897157 /* LHRationMoveVC.swift */; };
+		42558A7C1EE1173100897157 /* LHListScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42558A7B1EE1173100897157 /* LHListScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4200AC551EE10784000066CC /* LHMultistageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHMultistageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4200AC591EE10784000066CC /* LHMultistageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHMultistageViewUITests.swift; sourceTree = "<group>"; };
 		4200AC5B1EE10784000066CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42558A791EE116DE00897157 /* LHRationMoveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHRationMoveVC.swift; sourceTree = "<group>"; };
+		42558A7B1EE1173100897157 /* LHListScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHListScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		4200AC381EE10784000066CC /* LHMultistageView */ = {
 			isa = PBXGroup;
 			children = (
+				42558A781EE1161700897157 /* LHRationMove */,
 				4200AC391EE10784000066CC /* AppDelegate.swift */,
 				4200AC3B1EE10784000066CC /* ViewController.swift */,
 				4200AC3D1EE10784000066CC /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				4200AC5B1EE10784000066CC /* Info.plist */,
 			);
 			path = LHMultistageViewUITests;
+			sourceTree = "<group>";
+		};
+		42558A781EE1161700897157 /* LHRationMove */ = {
+			isa = PBXGroup;
+			children = (
+				42558A791EE116DE00897157 /* LHRationMoveVC.swift */,
+				42558A7B1EE1173100897157 /* LHListScrollView.swift */,
+			);
+			path = LHRationMove;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42558A7A1EE116DE00897157 /* LHRationMoveVC.swift in Sources */,
 				4200AC3C1EE10784000066CC /* ViewController.swift in Sources */,
 				4200AC3A1EE10784000066CC /* AppDelegate.swift in Sources */,
+				42558A7C1EE1173100897157 /* LHListScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +530,7 @@
 				4200AC601EE10784000066CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4200AC611EE10784000066CC /* Build configuration list for PBXNativeTarget "LHMultistageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				4200AC631EE10784000066CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4200AC641EE10784000066CC /* Build configuration list for PBXNativeTarget "LHMultistageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				4200AC661EE10784000066CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

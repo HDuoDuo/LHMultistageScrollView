@@ -12,14 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let listScrollView = LHListScrollView.listScrollView(frame: CGRect(x:0,y:100,width:350,height:50),segmentWidth: 80,
+            titles: ["视频","音乐","笑话","音乐","笑话","音乐","笑话","音乐","笑话","音乐","笑话"])
+        listScrollView.backgroundColor = UIColor.gray
+        view.addSubview(listScrollView)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
